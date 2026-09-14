@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>English Learning AI</title>
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>🎓 English Learning AI</h1>
+
+    <p>
+        Improve your English communication skills with AI
+    </p>
+
+</header>
+
+
+<main>
+
+
+    <!-- ===================== -->
+    <!-- AI CONVERSATION -->
+    <!-- ===================== -->
+
+    <section class="card">
+
+        <h2>🤖 AI Conversation</h2>
+
+        <p class="description">
+            Talk with your AI English tutor.
+        </p>
+
+
+        <textarea
+            id="message"
+            placeholder="Type your message here..."
+        ></textarea>
+
+
+        <div class="buttons">
+
+            <button
+                class="voice-btn"
+                onclick="startVoice()">
+
+                🎤 Speak
+
+            </button>
+
+
+            <button
+                class="send-btn"
+                onclick="chat()">
+
+                💬 Send
+
+            </button>
+
+        </div>
+
+
+        <div class="result">
+
+            <h3>AI Tutor</h3>
+
+            <p id="reply">
+                Your AI tutor response will appear here.
+            </p>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ===================== -->
+    <!-- GRAMMAR CHECKER -->
+    <!-- ===================== -->
+
+    <section class="card">
+
+        <h2>✍️ AI Grammar Checker</h2>
+
+        <p class="description">
+            Enter an English sentence and check your grammar.
+        </p>
+
+
+        <textarea
+            id="sentence"
+            placeholder="Example: I am go to college yesterday."
+        ></textarea>
+
+
+        <button
+            class="grammar-btn"
+            onclick="checkGrammar()">
+
+            ✅ Check Grammar
+
+        </button>
+
+
+        <div class="result">
+
+            <h3>Correction</h3>
+
+            <p id="correction">
+                Grammar correction will appear here.
+            </p>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<footer>
+
+    <p>
+        English Learning AI © 2026
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
